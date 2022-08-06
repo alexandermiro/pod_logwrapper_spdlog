@@ -1,7 +1,3 @@
-//
-// Created by alexander tavares miro on 3/8/22.
-//
-
 #ifndef LOG_POD_LOG_H
 #define LOG_POD_LOG_H
 

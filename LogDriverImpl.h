@@ -1,7 +1,3 @@
-//
-// Created by alexander tavares miro on 5/8/22.
-//
-
 #ifndef LOG_POD_LOGDRIVERIMPL_H
 #define LOG_POD_LOGDRIVERIMPL_H
 

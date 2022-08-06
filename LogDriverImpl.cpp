@@ -1,7 +1,3 @@
-//
-// Created by alexander tavares miro on 5/8/22.
-//
-
 #include "LogDriverImpl.h"
 
 #include <spdlog/sinks/stdout_color_sinks.h>

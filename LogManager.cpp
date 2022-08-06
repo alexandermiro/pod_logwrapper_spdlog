@@ -1,7 +1,3 @@
-//
-// Created by alexander tavares miro on 3/8/22.
-//
-
 #include "LogManager.h"
 #include "LogImpl.h"
 
