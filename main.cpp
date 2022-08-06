@@ -1,8 +1,6 @@
 
-#include "Voice.h"
 #include "AudioMixer.h"
 #include "log.h"
-#include "AudioMixer.h"
 
 #include <iostream>
 
