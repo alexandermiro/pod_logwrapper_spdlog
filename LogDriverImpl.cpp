@@ -30,7 +30,7 @@ void LogDriverImpl::createFile(const std::string& logFilePath, const LogConfig& 
     assert(logFilePath.empty() == false);
 
     if (config.file.isRotating) {
-        sink_ = std::make_shared<spdlog::sinks::rotating_file_sink_st>(
+        sink_ = std::make_shared<spdlog::sinks::rotating_file_sink_mt>(
             logFilePath, config.file.maxFileSize, config.file.maxNumFiles);
     } else {
         sink_ = std::make_shared<spdlog::sinks::basic_file_sink_mt>(logFilePath);

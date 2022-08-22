@@ -13,7 +13,7 @@ LogConfig& LogManager::getConfig() {
 void LogManager::init(std::string_view loggerName, bool isDefault) {
     const std::string name{loggerName.begin(), loggerName.end()};
 
-    if (isDefault) {
+    if (isDefault && defaultLoggerName_.empty()) {
         config_.logger.name   = name;
         config_.file.filename = config_.file.filename.empty()
                               ? name + ".log"
